@@ -1,0 +1,269 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portfolio – OVONO ETOUBEMBE Julfab Williarde</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="shortcut icon" href="celtic-knot.png" type="icon">
+</head>
+
+<body class="bg-slate-950 text-slate-100">
+
+    <!-- Navbar -->
+    <header class="border-b border-slate-800 bg-slate-950/80 backdrop-blur sticky top-0 z-20">
+        <div class="max-w-5xl mx-auto px-4 py-3 flex items-center justify-between">
+            <div class="font-semibold tracking-tight">
+                <span class="text-sky-400">Julfab</span> · Développeur Web / Back-end
+            </div>
+            <nav class="hidden sm:flex gap-6 text-sm">
+                <a href="#accueil" class="hover:text-sky-400">Accueil</a>
+                <a href="#apropos" class="hover:text-sky-400">À propos</a>
+                <a href="#projets" class="hover:text-sky-400">Projets</a>
+                <a href="#competences" class="hover:text-sky-400">Compétences</a>
+                <a href="#contact" class="hover:text-sky-400">Contact</a>
+            </nav>
+        </div>
+    </header>
+
+    <main class="max-w-5xl mx-auto px-4">
+
+        <!-- Accueil -->
+        <section id="accueil" class="min-h-[70vh] flex flex-col justify-center gap-6">
+            <p class="text-sm uppercase tracking-[0.2em] text-sky-400">Alternance 2026–2027</p>
+            <h1 class="text-3xl sm:text-4xl md:text-5xl font-bold leading-tight">
+                OVONO ETOUBEMBE <span class="text-sky-400">Julfab Williarde</span><br />
+                <span class="text-slate-300 text-2xl sm:text-3xl">Développeur Web / Back-end</span>
+            </h1>
+            <p class="text-slate-300 max-w-2xl">
+                Étudiant en Licence 2 Informatique à Toulouse, futur étudiant en Bachelor 3 Développement Web à
+                MyDigitalSchool . Passionné par le développement back-end, les API et la conception
+                d’applications web modernes.
+            </p>
+            <div class="flex flex-wrap gap-3">
+                <a href="#projets" class="px-5 py-2.5 rounded-md bg-sky-500 hover:bg-sky-400 text-sm font-medium">
+                    Voir mes projets
+                </a>
+                <a href="#contact"
+                    class="px-5 py-2.5 rounded-md border border-slate-700 hover:border-sky-400 text-sm font-medium">
+                    Me contacter
+                </a>
+            </div>
+        </section>
+
+        <!-- À propos -->
+        <section id="apropos" class="py-16 border-t border-slate-800">
+            <h2 class="text-2xl font-semibold mb-6">À propos</h2>
+            <div class="grid md:grid-cols-2 gap-8">
+                <p class="text-slate-300">
+                    Actuellement en Licence 2 Informatique à l’Université Toulouse Jean Jaurès, je souhaite poursuivre
+                    mon parcours en Bachelor 3 Développement Web à MyDigitalSchool en alternance.
+                    Je m’oriente progressivement vers le développement back-end, tout en conservant de bonnes bases
+                    en front-end.
+                </p>
+                <p class="text-slate-300">
+                    J’ai déjà travaillé sur des projets en <span class="text-sky-400">Python</span>,
+                    <span class="text-sky-400">FastAPI</span>, <span class="text-sky-400">Go</span>,
+                    <span class="text-sky-400">Shell</span>, ainsi qu’en
+                    <span class="text-sky-400">HTML / CSS / JavaScript</span> et <span
+                        class="text-sky-400">MySQL</span>.
+                    Mon objectif est de devenir développeur back-end, capable de concevoir des API robustes et de
+                    contribuer à des architectures web complètes.
+                </p>
+            </div>
+        </section>
+
+        <!-- Projets -->
+        <section id="projets" class="py-16 border-t border-slate-800">
+            <h2 class="text-2xl font-semibold mb-6">Projets</h2>
+            <div class="grid md:grid-cols-2 gap-6">
+
+                <!-- Projet 1 -->
+                <article class="border border-slate-800 rounded-lg p-5 bg-slate-900/40">
+                    <h3 class="text-lg font-semibold mb-2">API REST en FastAPI</h3>
+                    <p class="text-sm text-slate-300 mb-3">
+                        Conception d’une API REST en Python avec FastAPI : gestion des ressources, filtres avancés,
+                        validation des données, gestion des erreurs et documentation automatique.
+                    </p>
+                    <p class="text-xs text-slate-400 mb-3">
+                        <span class="font-semibold text-slate-200">Technologies :</span> Python, FastAPI, JSON
+                    </p>
+                    <div class="flex gap-3 text-sm">
+                        <a href="https://github.com/williardet/Projet-API-Pokemons" target="_blank"
+                            class="text-sky-400 hover:underline">Code source</a>
+                        <a href="https://empowering-flexibility-production.up.railway.app/docs" target="_blank"
+                            class="text-sky-400 hover:underline">Documentation</a>
+                    </div>
+                </article>
+
+                <!-- Projet 2 -->
+                <article class="border border-slate-800 rounded-lg p-5 bg-slate-900/40">
+                    <h3 class="text-lg font-semibold mb-2">Application web : Checklist</h3>
+                    <p class="text-sm text-slate-300 mb-3">
+                        Gestion de tâches avec stockage local et affichage JSON
+                    </p>
+                    <p class="text-xs text-slate-400 mb-3">
+                        <span class="font-semibold text-slate-200">Technologies :</span> HTML, CSS, JavaScript
+                    </p>
+                    <div class="flex gap-3 text-sm">
+                        <a href="https://williardet.github.io/Projet-checklist/" target="_blank"
+                            class="text-sky-400 hover:underline">Voir le site</a>
+                    </div>
+                </article>
+
+                <!-- Projet 3 -->
+                <article class="border border-slate-800 rounded-lg p-5 bg-slate-900/40">
+                    <h3 class="text-lg font-semibold mb-2">Site web vitrine : Joëlle COUTAZ</h3>
+                    <p class="text-sm text-slate-300 mb-3">
+                        Développement d’une interface web avec HTML, CSS et JavaScript présentant le parcours de la
+                        pionnière de l’interaction homme-machine.
+                    </p>
+                    <p class="text-xs text-slate-400 mb-3">
+                        <span class="font-semibold text-slate-200">Technologies :</span> HTML, CSS, JavaScript
+                    </p>
+                    <div class="flex gap-3 text-sm">
+                        <a href="https://williardet.github.io/projet-coutaz/" target="_blank"
+                            class="text-sky-400 hover:underline">Voir le site</a>
+                    </div>
+                </article>
+
+
+                <!-- Projet 4 -->
+                <article class="border border-slate-800 rounded-lg p-5 bg-slate-900/40">
+                    <h3 class="text-lg font-semibold mb-2">Site vitrine fictif : JOWE (mode & boutique)</h3>
+                    <p class="text-sm text-slate-300 mb-3">
+                        Conception d’un site vitrine pour une marque de mode imaginée, avec intégration d’éléments
+                        visuels issus de diverses sources. Travail sur la structure, le responsive design et
+                        l’esthétique.
+                    </p>
+                    <p class="text-xs text-slate-400 mb-3">
+                        <span class="font-semibold text-slate-200">Technologies :</span> HTML, CSS, Tailwind
+                    </p>
+                    <div class="flex gap-3 text-sm">
+                        <a href="https://williardet.github.io/Projet-JOWE/" target="_blank"
+                            class="text-sky-400 hover:underline">Voir le site</a>
+                    </div>
+                </article>
+
+                <!-- Projet 5 -->
+                <article class="border border-slate-800 rounded-lg p-5 bg-slate-900/40">
+                    <h3 class="text-lg font-semibold mb-2">Mini-site : Air Travel (agence de voyage)</h3>
+                    <p class="text-sm text-slate-300 mb-3">
+                        Présentation de destinations touristiques dans un format vitrine simple et clair. Projet axé sur
+                        la mise en page et l’organisation du contenu.
+                    </p>
+                    <p class="text-xs text-slate-400 mb-3">
+                        <span class="font-semibold text-slate-200">Technologies :</span> HTML, CSS
+                    </p>
+                    <div class="flex gap-3 text-sm">
+                        <a href="https://williardet.github.io/Projet-travels/" target="_blank"
+                            class="text-sky-400 hover:underline">Voir le site</a>
+                    </div>
+                </article>
+
+                <!-- Projet 6 -->
+                <article class="border border-slate-800 rounded-lg p-5 bg-slate-900/40">
+                    <h3 class="text-lg font-semibold mb-2">Mini-site : Squid Game (bande-annonce)</h3>
+                    <p class="text-sm text-slate-300 mb-3">
+                        CSS
+                        Page web dédiée à la bande-annonce de la série Squid Game, avec mise en valeur visuelle et
+                        structure narrative.
+                    </p>
+                    <p class="text-xs text-slate-400 mb-3">
+                        <span class="font-semibold text-slate-200">Technologies :</span> HTML, CSS
+                    </p>
+                    <div class="flex gap-3 text-sm">
+                        <a href="https://williardet.github.io/Projet-Squid-game/" target="_blank"
+                            class="text-sky-400 hover:underline">Voir le site</a>
+                    </div>
+                </article>
+
+                <!-- Projet 7 -->
+                <article class="border border-slate-800 rounded-lg p-5 bg-slate-900/40">
+                    <h3 class="text-lg font-semibold mb-2">Page web : Collection de livres de l’auteur Austin</h3>
+                    <p class="text-sm text-slate-300 mb-3">
+                        Présentation d’une collection fictive de livres, avec mise en page soignée et hiérarchisation
+                        des informations.
+                    </p>
+                    <p class="text-xs text-slate-400 mb-3">
+                        <span class="font-semibold text-slate-200">Technologies :</span> HTML, CSS
+                    </p>
+                    <div class="flex gap-3 text-sm">
+                        <a href="https://williardet.github.io/Projet-Austin/" target="_blank"
+                            class="text-sky-400 hover:underline">Voir le site</a>
+                    </div>
+                </article>
+
+            </div>
+        </section>
+
+        <!-- Compétences -->
+        <section id="competences" class="py-16 border-t border-slate-800">
+            <h2 class="text-2xl font-semibold mb-6">Compétences</h2>
+            <div class="grid md:grid-cols-3 gap-6 text-sm">
+
+                <div class="border border-slate-800 rounded-lg p-5 bg-slate-900/40">
+                    <h3 class="font-semibold mb-3 text-slate-100">Back-end</h3>
+                    <ul class="space-y-1 text-slate-300">
+                        <li>Python (FastAPI)</li>
+                        <li>Go</li>
+                        <li>Shell</li>
+                        <li>Conception d’API REST</li>
+                    </ul>
+                </div>
+
+                <div class="border border-slate-800 rounded-lg p-5 bg-slate-900/40">
+                    <h3 class="font-semibold mb-3 text-slate-100">Front-end</h3>
+                    <ul class="space-y-1 text-slate-300">
+                        <li>HTML / CSS</li>
+                        <li>JavaScript</li>
+                        <li>Interfaces web responsives</li>
+                    </ul>
+                </div>
+
+                <div class="border border-slate-800 rounded-lg p-5 bg-slate-900/40">
+                    <h3 class="font-semibold mb-3 text-slate-100">Données & outils</h3>
+                    <ul class="space-y-1 text-slate-300">
+                        <li>MySQL, SQL</li>
+                        <li>Git, GitHub</li>
+                        <li>VS Code</li>
+                    </ul>
+                </div>
+
+            </div>
+        </section>
+
+        <!-- Contact -->
+        <section id="contact" class="py-16 border-t border-slate-800">
+            <h2 class="text-2xl font-semibold mb-6">Contact</h2>
+            <p class="text-slate-300 mb-4">
+                Disponible pour une alternance en développement web / back-end à partir de 2026–2027.
+            </p>
+            <div class="space-y-2 text-sm">
+                <p><span class="font-semibold text-slate-100">Email :</span> <a href="mailto:christwilliarde@gmail.com"
+                        class="text-sky-400 hover:underline">christwilliarde@gmail.com</a></p>
+                <p><span class="font-semibold text-slate-100">Téléphone :</span> +33 7 61 53 02 52</p>
+                <p><span class="font-semibold text-slate-100">GitHub :</span> <a href="https://github.com/williardet
+                        target=" _blank" class="text-sky-400 hover:underline">github-williarde</a></p>
+                <p><span class="font-semibold text-slate-100">LinkedIn :</span> <a
+                        href="https://www.linkedin.com/in/williarde-ovono-27a339263/" target="_blank"
+                        class="text-sky-400 hover:underline">linkedin-williarde</a></p>
+                <p><span class="font-semibold text-slate-100">CV :</span>
+                    <a href="curriculum vita - back-end.pdf" target="_blank" class="text-sky-400 hover:underline">
+                        Voir / Télécharger le CV (PDF)
+                    </a>
+                </p>
+
+            </div>
+        </section>
+
+    </main>
+
+    <footer class="border-t border-slate-800 py-4 text-center text-xs text-slate-500 mt-8">
+        © 2026 – OVONO ETOUBEMBE Julfab Williarde · Portfolio Développeur Web / Back-end
+    </footer>
+
+</body>
+
+</html>
