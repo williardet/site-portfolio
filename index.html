@@ -15,13 +15,14 @@
     <header class="border-b border-slate-800 bg-slate-950/80 backdrop-blur sticky top-0 z-20">
         <div class="max-w-5xl mx-auto px-4 py-3 flex items-center justify-between">
             <div class="font-semibold tracking-tight">
-                <span class="text-sky-400">Julfab</span> · Développeur Web / Back-end
+                <span class="text-sky-400">Julfab</span> · Développeur Web / Full-stack
             </div>
             <nav class="hidden sm:flex gap-6 text-sm">
                 <a href="#accueil" class="hover:text-sky-400">Accueil</a>
                 <a href="#apropos" class="hover:text-sky-400">À propos</a>
                 <a href="#projets" class="hover:text-sky-400">Projets</a>
                 <a href="#competences" class="hover:text-sky-400">Compétences</a>
+                <a href="#experience" class="hover:text-sky-400">Expériences</a>
                 <a href="#contact" class="hover:text-sky-400">Contact</a>
             </nav>
         </div>
@@ -31,14 +32,13 @@
 
         <!-- Accueil -->
         <section id="accueil" class="min-h-[70vh] flex flex-col justify-center gap-6">
-            <p class="text-sm uppercase tracking-[0.2em] text-sky-400">Alternance 2026–2027</p>
             <h1 class="text-3xl sm:text-4xl md:text-5xl font-bold leading-tight">
                 OVONO ETOUBEMBE <span class="text-sky-400">Julfab Williarde</span><br />
-                <span class="text-slate-300 text-2xl sm:text-3xl">Développeur Web / Back-end</span>
+                <span class="text-slate-300 text-2xl sm:text-3xl">Développeur Web | Full-stack</span>
             </h1>
             <p class="text-slate-300 max-w-2xl">
-                Étudiant en Licence 2 Informatique à Toulouse, futur étudiant en Bachelor 3 Développement Web à
-                MyDigitalSchool . Passionné par le développement back-end, les API et la conception
+                Étudiant en Licence 2 MIASHS, parcours Informatique à l’Université Toulouse Jean Jaurès. Passionné par
+                le développement back-end, les API et la conception
                 d’applications web modernes.
             </p>
             <div class="flex flex-wrap gap-3">
@@ -57,19 +57,21 @@
             <h2 class="text-2xl font-semibold mb-6">À propos</h2>
             <div class="grid md:grid-cols-2 gap-8">
                 <p class="text-slate-300">
-                    Actuellement en Licence 2 Informatique à l’Université Toulouse Jean Jaurès, je souhaite poursuivre
-                    mon parcours en Bachelor 3 Développement Web à MyDigitalSchool en alternance.
-                    Je m’oriente progressivement vers le développement back-end, tout en conservant de bonnes bases
-                    en front-end.
+                    Actuellement en Licence 2 MIASHS, parcours Informatique à l’Université Toulouse Jean Jaurès, je
+                    développe mes compétences en programmation, en algorithmique et en conception d’applications web.
+                    Passionné par le développement full‑stack, je m’investis dans l’apprentissage du back‑end comme du
+                    front‑end afin de construire des solutions fiables, structurées et adaptées aux besoins des
+                    utilisateurs.
                 </p>
                 <p class="text-slate-300">
                     J’ai déjà travaillé sur des projets en <span class="text-sky-400">Python</span>,
-                    <span class="text-sky-400">FastAPI</span>, <span class="text-sky-400">Go</span>,
-                    <span class="text-sky-400">Shell</span>, ainsi qu’en
+                    <span class="text-sky-400">FastAPI</span>, ainsi qu’en
                     <span class="text-sky-400">HTML / CSS / JavaScript</span> et <span
                         class="text-sky-400">MySQL</span>.
-                    Mon objectif est de devenir développeur back-end, capable de concevoir des API robustes et de
-                    contribuer à des architectures web complètes.
+                    Mon objectif est de devenir développeur full‑stack polyvalent, en approfondissant mes compétences en
+                    back‑end et en renforçant mon expertise front‑end, afin de créer des API fiables et de contribuer à
+                    des projets web complets, robustes et bien structurés grâce à mon sens de l’organisation, mon
+                    autonomie et mes compétences techniques.
                 </p>
             </div>
         </section>
@@ -83,8 +85,14 @@
                 <article class="border border-slate-800 rounded-lg p-5 bg-slate-900/40">
                     <h3 class="text-lg font-semibold mb-2">API REST en FastAPI</h3>
                     <p class="text-sm text-slate-300 mb-3">
-                        Conception d’une API REST en Python avec FastAPI : gestion des ressources, filtres avancés,
-                        validation des données, gestion des erreurs et documentation automatique.
+                        Ce projet consiste en la création d'une API REST complète permettant de gérer un ensemble de
+                        Pokémon à partir d’un fichier JSON. J’y ai mis en place une architecture structurée avec des
+                        endpoints CRUD, une gestion propre des ressources et une modélisation des données via une
+                        dataclass dédiée. L’API intègre également un système de filtrage avancé (types, évolution,
+                        statistiques, tri dynamique), ainsi qu’une validation stricte des données grâce à FastAPI et
+                        Pydantic. J’ai aussi développé une gestion centralisée des erreurs pour garantir des réponses
+                        cohérentes et fiables. Enfin, la documentation automatique générée par FastAPI (Swagger UI /
+                        ReDoc) rend l’API intuitive, testable et facile à explorer.
                     </p>
                     <p class="text-xs text-slate-400 mb-3">
                         <span class="font-semibold text-slate-200">Technologies :</span> Python, FastAPI, JSON
@@ -101,10 +109,13 @@
                 <article class="border border-slate-800 rounded-lg p-5 bg-slate-900/40">
                     <h3 class="text-lg font-semibold mb-2">Application web : Checklist</h3>
                     <p class="text-sm text-slate-300 mb-3">
-                        Gestion de tâches avec stockage local et affichage JSON
+                        Application web de gestion de checklists et de tâches, développée en JavaScript avec stockage
+                        local et interface responsive en TailwindCSS. L’utilisateur peut créer des listes, ajouter des
+                        tâches associées et naviguer entre les pages grâce à un rendu dynamique et une manipulation
+                        efficace du DOM
                     </p>
                     <p class="text-xs text-slate-400 mb-3">
-                        <span class="font-semibold text-slate-200">Technologies :</span> HTML, CSS, JavaScript
+                        <span class="font-semibold text-slate-200">Technologies :</span> HTML, TailwindCSS, JavaScript
                     </p>
                     <div class="flex gap-3 text-sm">
                         <a href="https://williardet.github.io/Projet-checklist/" target="_blank"
@@ -114,10 +125,14 @@
 
                 <!-- Projet 3 -->
                 <article class="border border-slate-800 rounded-lg p-5 bg-slate-900/40">
-                    <h3 class="text-lg font-semibold mb-2">Site web vitrine : Joëlle COUTAZ</h3>
+                    <h3 class="text-lg font-semibold mb-2">Mini-site pédagogique : Joëlle COUTAZ</h3>
                     <p class="text-sm text-slate-300 mb-3">
-                        Développement d’une interface web avec HTML, CSS et JavaScript présentant le parcours de la
-                        pionnière de l’interaction homme-machine.
+                        Ce projet consistait à créer un site web complet et responsive présentant la vie, les travaux et
+                        l’impact de Joëlle Coutaz. J’ai structuré l’application en plusieurs pages (portrait,
+                        réalisations, quiz), conçu l’interface en HTML/CSS, ajouté un quiz dynamique en JavaScript et
+                        assuré une navigation fluide sur tous les écrans. Le projet m’a permis de renforcer mes
+                        compétences en intégration web, en organisation du code et en gestion de version avec
+                        Git/GitHub.
                     </p>
                     <p class="text-xs text-slate-400 mb-3">
                         <span class="font-semibold text-slate-200">Technologies :</span> HTML, CSS, JavaScript
@@ -133,12 +148,13 @@
                 <article class="border border-slate-800 rounded-lg p-5 bg-slate-900/40">
                     <h3 class="text-lg font-semibold mb-2">Site vitrine fictif : JOWE (mode & boutique)</h3>
                     <p class="text-sm text-slate-300 mb-3">
-                        Conception d’un site vitrine pour une marque de mode imaginée, avec intégration d’éléments
-                        visuels issus de diverses sources. Travail sur la structure, le responsive design et
-                        l’esthétique.
+                        Ce projet est un site vitrine de mode composé de six pages, réalisé en HTML, CSS et TailwindCSS.
+                        Il présente une boutique éphémère regroupant plusieurs marques et inclut des pages produits,
+                        équipe, contact et formulaires. C’était un projet surtout esthétique, qui reflète mes premières
+                        expérimentations en intégration web et ma progression depuis mes débuts.
                     </p>
                     <p class="text-xs text-slate-400 mb-3">
-                        <span class="font-semibold text-slate-200">Technologies :</span> HTML, CSS, Tailwind
+                        <span class="font-semibold text-slate-200">Technologies :</span> HTML, CSS, TailwindCSS
                     </p>
                     <div class="flex gap-3 text-sm">
                         <a href="https://williardet.github.io/Projet-JOWE/" target="_blank"
@@ -148,7 +164,7 @@
 
                 <!-- Projet 5 -->
                 <article class="border border-slate-800 rounded-lg p-5 bg-slate-900/40">
-                    <h3 class="text-lg font-semibold mb-2">Mini-site : Air Travel (agence de voyage)</h3>
+                    <h3 class="text-lg font-semibold mb-2">Page web : Air Travel (agence de voyage)</h3>
                     <p class="text-sm text-slate-300 mb-3">
                         Présentation de destinations touristiques dans un format vitrine simple et clair. Projet axé sur
                         la mise en page et l’organisation du contenu.
@@ -164,7 +180,7 @@
 
                 <!-- Projet 6 -->
                 <article class="border border-slate-800 rounded-lg p-5 bg-slate-900/40">
-                    <h3 class="text-lg font-semibold mb-2">Mini-site : Squid Game (bande-annonce)</h3>
+                    <h3 class="text-lg font-semibold mb-2">Page web : Squid Game (bande-annonce)</h3>
                     <p class="text-sm text-slate-300 mb-3">
                         CSS
                         Page web dédiée à la bande-annonce de la série Squid Game, avec mise en valeur visuelle et
@@ -199,35 +215,161 @@
         </section>
 
         <!-- Compétences -->
+        <!-- Compétences -->
         <section id="competences" class="py-16 border-t border-slate-800">
             <h2 class="text-2xl font-semibold mb-6">Compétences</h2>
+
             <div class="grid md:grid-cols-3 gap-6 text-sm">
 
+                <!-- Langages & Bases de données -->
                 <div class="border border-slate-800 rounded-lg p-5 bg-slate-900/40">
-                    <h3 class="font-semibold mb-3 text-slate-100">Back-end</h3>
+                    <h3 class="font-semibold mb-3 text-slate-100">Langages & Bases de données</h3>
                     <ul class="space-y-1 text-slate-300">
-                        <li>Python (FastAPI)</li>
-                        <li>Go</li>
-                        <li>Shell</li>
-                        <li>Conception d’API REST</li>
+                        <li>Python</li>
+                        <li>JavaScript</li>
+                        <li>SQL (MySQL / MariaDB)</li>
                     </ul>
                 </div>
 
+                <!-- Front-end -->
                 <div class="border border-slate-800 rounded-lg p-5 bg-slate-900/40">
                     <h3 class="font-semibold mb-3 text-slate-100">Front-end</h3>
                     <ul class="space-y-1 text-slate-300">
-                        <li>HTML / CSS</li>
-                        <li>JavaScript</li>
+                        <li>HTML5</li>
+                        <li>CSS3</li>
+                        <li>Tailwind CSS</li>
                         <li>Interfaces web responsives</li>
                     </ul>
                 </div>
 
+                <!-- Back-end -->
                 <div class="border border-slate-800 rounded-lg p-5 bg-slate-900/40">
-                    <h3 class="font-semibold mb-3 text-slate-100">Données & outils</h3>
+                    <h3 class="font-semibold mb-3 text-slate-100">Back-end (en cours d’apprentissage)</h3>
                     <ul class="space-y-1 text-slate-300">
-                        <li>MySQL, SQL</li>
-                        <li>Git, GitHub</li>
+                        <li>Django</li>
+                        <li>Node.js</li>
+                    </ul>
+                </div>
+
+                <!-- Frameworks & Bibliothèques -->
+                <div class="border border-slate-800 rounded-lg p-5 bg-slate-900/40">
+                    <h3 class="font-semibold mb-3 text-slate-100">Frameworks & Bibliothèques</h3>
+                    <ul class="space-y-1 text-slate-300">
+                        <li>React</li>
+                    </ul>
+                </div>
+
+                <!-- Outils -->
+                <div class="border border-slate-800 rounded-lg p-5 bg-slate-900/40">
+                    <h3 class="font-semibold mb-3 text-slate-100">Outils</h3>
+                    <ul class="space-y-1 text-slate-300">
+                        <li>Git / GitHub</li>
                         <li>VS Code</li>
+                        <li>Figma</li>
+                    </ul>
+                </div>
+
+                <!-- Compétences transversales -->
+                <div class="border border-slate-800 rounded-lg p-5 bg-slate-900/40">
+                    <h3 class="font-semibold mb-3 text-slate-100">Compétences transversales</h3>
+                    <ul class="space-y-1 text-slate-300">
+                        <li>Travail en équipe</li>
+                        <li>Communication</li>
+                        <li>Organisation & autonomie</li>
+                        <li>Adaptabilité</li>
+                        <li>Créativité</li>
+                    </ul>
+                </div>
+
+                <!-- Langues -->
+                <div class="border border-slate-800 rounded-lg p-5 bg-slate-900/40">
+                    <h3 class="font-semibold mb-3 text-slate-100">Langues</h3>
+                    <ul class="space-y-1 text-slate-300">
+                        <li>Français : langue maternelle</li>
+                        <li>Anglais : B1</li>
+                        <li>Mandarin : débutant</li>
+                    </ul>
+                </div>
+
+                <!-- Centres d’intérêt -->
+                <div class="border border-slate-800 rounded-lg p-5 bg-slate-900/40">
+                    <h3 class="font-semibold mb-3 text-slate-100">Centres d’intérêt</h3>
+                    <ul class="space-y-1 text-slate-300">
+                        <li>Sports collectifs</li>
+                        <li>Randonnée en montagne</li>
+                        <li>Culture et loisirs artistiques</li>
+                    </ul>
+                </div>
+
+            </div>
+        </section>
+
+        <!-- Expérience -->
+        <section id="experience" class="py-16 border-t border-slate-800">
+            <h2 class="text-2xl font-semibold mb-6">Expériences</h2>
+
+            <div class="space-y-6">
+
+                <!-- Workshop -->
+                <div class="border border-slate-800 rounded-lg p-6 bg-slate-900/40">
+                    <h3 class="text-xl font-semibold text-sky-400 mb-2">
+                        Workshop – Projet de communication visuelle & maquette web
+                    </h3>
+                    <p class="text-sm text-slate-400 mb-3">
+                        Institut Superieur de Management de Dakar · Collaboration avec une entreprise · 1 semaine
+                    </p>
+
+                    <p class="text-slate-300 mb-3">
+                        Participation à un workshop intensif visant à répondre à une problématique réelle d’entreprise.
+                        En équipe, réalisation d’une maquette de site web, d’une identité visuelle cohérente et d’une
+                        vidéo de présentation destinée au client.
+                    </p>
+
+                    <p class="text-slate-300 mb-3 font-semibold">Mes contributions :</p>
+                    <ul class="list-disc list-inside text-slate-300 space-y-1">
+                        <li>Création de l’affiche promotionnelle</li>
+                        <li>Refonte complète du logo et harmonisation de l’identité visuelle</li>
+                        <li>Réalisation et montage de la vidéo finale</li>
+                        <li>Participation à la conception de la maquette web</li>
+                        <li>Travail en coordination avec une équipe pluridisciplinaire</li>
+                    </ul>
+
+                    <p class="text-slate-300 mt-4 font-semibold">Compétences mobilisées :</p>
+                    <p class="text-slate-300">
+                        Communication visuelle, design graphique, créativité, gestion de projet courte durée,
+                        travail en équipe, adaptation aux besoins d’un client.
+                    </p>
+                </div>
+                <!-- Expérience : Employé Logistique -->
+                <div class="border border-slate-800 rounded-lg p-6 bg-slate-900/40">
+                    <h3 class="text-xl font-semibold text-sky-400 mb-2">
+                        Employé Logistique – Emploi étudiant | Rentréediscount
+                    </h3>
+                    <p class="text-sm text-slate-400 mb-3">
+                        Été 2025 · Toulouse
+                    </p>
+
+                    <ul class="list-disc list-inside text-slate-300 space-y-1">
+                        <li>Préparation des commandes avec précision selon les procédures établies</li>
+                        <li>Optimisation de l’organisation et du rangement des zones de stockage</li>
+                        <li>Maintien de la propreté et de l’ordre dans l’entrepôt</li>
+                        <li>Vérification de la qualité et de la conformité des produits avant expédition</li>
+                    </ul>
+                </div>
+
+                <!-- Expérience : Engagement associatif -->
+                <div class="border border-slate-800 rounded-lg p-6 bg-slate-900/40">
+                    <h3 class="text-xl font-semibold text-sky-400 mb-2">
+                        Engagement associatif – Association des étudiants étrangers
+                    </h3>
+                    <p class="text-sm text-slate-400 mb-3">
+                        2022 – 2024 · Dakar (Sénégal)
+                    </p>
+
+                    <ul class="list-disc list-inside text-slate-300 space-y-1">
+                        <li>Aide à la préparation et à la mise en place des événements étudiants</li>
+                        <li>Coordination logistique et soutien à l’organisation</li>
+                        <li>Participation à la gestion du matériel et au déroulement des activités</li>
                     </ul>
                 </div>
 
@@ -238,17 +380,17 @@
         <section id="contact" class="py-16 border-t border-slate-800">
             <h2 class="text-2xl font-semibold mb-6">Contact</h2>
             <p class="text-slate-300 mb-4">
-                Disponible pour une alternance en développement web / back-end à partir de 2026–2027.
+                Disponible pour une alternance en développement web / Full-stack à partir de 2026–2027.
             </p>
             <div class="space-y-2 text-sm">
-                <p><span class="font-semibold text-slate-100">Email :</span> <a href="mailto:christwilliarde@gmail.com"
-                        class="text-sky-400 hover:underline">christwilliarde@gmail.com</a></p>
+                <p><span class="font-semibold text-slate-100">Email :</span> <a href="mailto:julfab.ovono@gmail.com"
+                        class="text-sky-400 hover:underline">julfab.ovono@gmail.com</a></p>
                 <p><span class="font-semibold text-slate-100">Téléphone :</span> +33 7 61 53 02 52</p>
-                <p><span class="font-semibold text-slate-100">GitHub :</span> <a href="https://github.com/williardet
-                        target=" _blank" class="text-sky-400 hover:underline">github-williarde</a></p>
+                <p><span class="font-semibold text-slate-100">GitHub :</span> <a href="https://github.com/williardet"
+                        target="_blank" class="text-sky-400 hover:underline">github-Julfab</a></p>
                 <p><span class="font-semibold text-slate-100">LinkedIn :</span> <a
-                        href="https://www.linkedin.com/in/williarde-ovono-27a339263/" target="_blank"
-                        class="text-sky-400 hover:underline">linkedin-williarde</a></p>
+                        href="https://www.linkedin.com/in/julfab-ovono-27a339263/" target="_blank"
+                        class="text-sky-400 hover:underline">linkedin-Julfab</a></p>
                 <p><span class="font-semibold text-slate-100">CV :</span>
                     <a href="curriculum vita - back-end.pdf" target="_blank" class="text-sky-400 hover:underline">
                         Voir / Télécharger le CV (PDF)
@@ -261,7 +403,7 @@
     </main>
 
     <footer class="border-t border-slate-800 py-4 text-center text-xs text-slate-500 mt-8">
-        © 2026 – OVONO ETOUBEMBE Julfab Williarde · Portfolio Développeur Web / Back-end
+        © 2026 – OVONO ETOUBEMBE Julfab Williarde · Portfolio Développeur Web / Full-stack
     </footer>
 
 </body>
